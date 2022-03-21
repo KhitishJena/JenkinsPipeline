@@ -4,25 +4,25 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Hello Build'
+                echo 'Hello Build from Git'
             }
         }
         
         stage('Deploy to QA') {
             steps {
-                echo 'Hello Deploy to QA'
+                echo 'Hello Deploy to QA from Git'
             }
         }
         
         stage('Test') {
             steps {
-                echo 'Hello Test'
+                echo 'Hello Test from Git'
             }
         }
         
         stage('Production Release') {
             steps {
-                echo 'Hello Production Release'
+                echo 'Hello Production Release from Git'
             }
         }
     }
